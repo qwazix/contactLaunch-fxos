@@ -18,7 +18,7 @@
           });
 	      $$.post("http://fos.outofbounds.gr/index.php",{
 	              name: $$(this).find(".personname").text(),
-	              photo: $$(this).find("img").attr("src"),
+	              photo: $$(this).parent("li").attr("data-imgdata"),
 	              number: $$(this).find(".persontel").text()
               }, function(data){
                   var response = JSON.parse(data);
