@@ -10,7 +10,10 @@
     "contacts": {
       "description": "Contacts App",
       "access": "readwrite"
-    }
+    },
+    "systemXHR": {
+        "description" : "xhr request permission" 
+     }
   },
   "icons": {
     "16": "img/icon-16.png",
